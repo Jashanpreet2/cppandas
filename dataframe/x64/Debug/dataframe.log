@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\singh\OneDrive\MAIN COLLEGE WORK\Semester 3\WEB322\Projects\cppandas\dataframe\main.cpp(6,10): error C2664: 'int isdigit(int)': cannot convert argument 1 from 'const char [6]' to 'int'
+C:\Users\singh\OneDrive\MAIN COLLEGE WORK\Semester 3\WEB322\Projects\cppandas\dataframe\main.cpp(6,18): message : There is no context in which this conversion is possible
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\ctype.h(39,56): message : see declaration of 'isdigit'
+C:\Users\singh\OneDrive\MAIN COLLEGE WORK\Semester 3\WEB322\Projects\cppandas\dataframe\main.cpp(6,10): message : while trying to match the argument list '(const char [6])'
+C:\Users\singh\OneDrive\MAIN COLLEGE WORK\Semester 3\WEB322\Projects\cppandas\dataframe\main.cpp(6,7): error C2088: '<<': illegal for class
