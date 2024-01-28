@@ -14,7 +14,5 @@ public:
 	static char getDelimiter();
 };
 
-
-char Utilities::m_delimiter = 'a';
 #endif
 

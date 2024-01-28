@@ -1,16 +1,18 @@
 #ifndef DATAFRAME_H
 #define DATAFRAME_H
+#include <iostream>
 #include <string>
-
+#include <vector>
 
 class DataFrame {
-	string** headers{};
-	string** ptr{};
-	size_t numColumns{};
+	std::vector<std::string> headings{};
+	std::vector<std::vector<std::string>> cols{};
 public:
-	DataFrame();
+	DataFrame() {};
 	bool readCSV(const std::string& fileName);
-
+	std::ostream & display(std::ostream & os) const;
 };
+
+std::ostream& operator<<(std::ostream& os, const DataFrame& df);
 
 #endif
